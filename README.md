@@ -25,8 +25,8 @@ There are two filters implemented:
 FilterAverage: Displays the average of each pixel.
 
 FilterNightVision: Calculates the inter-frame and intra-frame average of each
-pixel. Uses the intra-frame average to determine a "black level" for each frame.
-The black level is then used as a basis for amplifying each color chanel to
+pixel. Uses the intra-frame average to determine the black level for each frame.
+The black level is then used as a basis for amplifying each color channel to
 cover the entire color range. The inter-frame average is then updated and
 displayed.
 
