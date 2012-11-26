@@ -37,3 +37,10 @@ Technologies
 - Boost::ASIO
 - SDL (Simple DirectMedia Layer)
 - IJG libjpeg
+
+
+Platform
+--------
+
+Project files for Visual Studio 2010 and binary for 64-bit Windows are included.
+The project is untested on other platforms, but is intended to be cross-platform.
