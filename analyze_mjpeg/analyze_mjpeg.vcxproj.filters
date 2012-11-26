@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="short_ints.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="jpeg.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="filter_nightvision.h" />
+    <ClInclude Include="filter_average.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jpeg.cpp" />
+    <ClCompile Include="analyze_mjpeg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="filter_nightvision.cpp" />
+    <ClCompile Include="filter_average.cpp" />
+  </ItemGroup>
+</Project>
