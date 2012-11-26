@@ -7,11 +7,15 @@ video and displays the filtered video.
 The app mainly shows how to:
 
 - Read and process a MJPEG stream using C++ and Boost.
-- Use ASIO to get the bytes of an MJPEG stream.
-- Parse the MJPEG stream (MIME multi-part).
+- Use Boost::ASIO to get read an MJPEG stream.
+- Parse the MJPEG stream (multipart MIME).
 - Uncompress JPEGs in memory with IJG libjpeg.
 - Perform some filtering on the stream.
 - Display the filtered stream with SDL.
+
+There is minimal error checking and no attempt to recover from glitches in the
+stream.
+
 
 Filters
 -------
@@ -32,4 +36,4 @@ Technologies
 - C++
 - Boost::ASIO
 - SDL (Simple DirectMedia Layer)
-- Lib
+- IJG libjpeg
