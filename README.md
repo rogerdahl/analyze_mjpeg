@@ -7,7 +7,7 @@ video and displays the filtered video.
 The app mainly shows how to:
 
 - Read and process a MJPEG stream using C++ and Boost.
-- Use Boost::ASIO to get read an MJPEG stream.
+- Use Boost::ASIO to read an MJPEG stream.
 - Parse the MJPEG stream (multipart MIME).
 - Uncompress JPEGs in memory with IJG libjpeg.
 - Perform some filtering on the stream.
